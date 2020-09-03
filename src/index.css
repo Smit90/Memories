@@ -27,7 +27,19 @@ p {
     transition: all 0.5s ease;
 }
 
-span{
+.mystyle{
+  font: 700 3em/1 "Oswald", sans-serif;
+  letter-spacing: 0;
+  padding: .25em 0 .325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255,255,255,.5);
+  max-width: 100%;
+  height: auto;
+  color: white;
+}
+
+.effect{
 
   font: 700 3em/1 "Oswald", sans-serif;
   letter-spacing: 0;
@@ -102,4 +114,8 @@ img:hover{
   }
   
   
-  
+  .word:hover{
+    color: red;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }

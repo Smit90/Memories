@@ -9,7 +9,7 @@ function App() {
           <div className="col-12 mx-auto">
             <p className="">
               Best moments with friends
-              <span>Memorable</span>
+              <span className="effect">Memorable</span>
               &mdash; unforgettable &mdash;
             </p>
           </div>
@@ -23,6 +23,13 @@ function App() {
         </div>
       </div>
       <Pics />
+      <div className="container-fluid">
+        <div className="row">
+          <div className="col-12 mx-auto">
+            <p className="text-center"><div className="mystyle">Yo<span data-toggle="tooltip" title="Urva Patel" className="word">u</span> &amp; <span className="word" data-toggle="tooltip" title="Smit Patel / Umesh Prajapati">i</span> </div> are more than Friends. We're <div className="mystyle"> li<span className="word" data-toggel="tooltip" title="Kashyap Patel">k</span>e </div> a really Small gang.</p>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
